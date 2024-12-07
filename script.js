@@ -39,7 +39,7 @@ function ismechi(str){
 }
 function isfer(str){
   let retornar=false
-  if(str.toUpperCase() =="fer".toUpperCase() || str.toUpperCase() =="fercho".toUpperCase() || str.toUpperCase() =="fernando".toUpperCase() || str.toUpperCase() =="vargas".toUpperCase() ){
+  if(str.toUpperCase() =="fer".toUpperCase() || str.toUpperCase() =="fercho".toUpperCase() || str.toUpperCase() =="fernando".toUpperCase() || str.toUpperCase() =="vargas".toUpperCase() || str.toUpperCase() =="fer ".toUpperCase() || str.toUpperCase() =="fercho".toUpperCase() || str.toUpperCase() =="fernando ".toUpperCase() || str.toUpperCase() =="vargas ".toUpperCase()){
     retornar=true
   } 
   return retornar
