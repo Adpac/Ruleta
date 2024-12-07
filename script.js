@@ -11,27 +11,27 @@ let options = ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'];
 var selanterior=""
 function isadel(str){
   let retornar=false
-  if(str.toUpperCase() =="adel".toUpperCase() || str.toUpperCase() =="Paco".toUpperCase() ){
+  if(str.toUpperCase() =="adel".toUpperCase() || str.toUpperCase() =="Paco".toUpperCase() || str.toUpperCase() =="adel ".toUpperCase() || str.toUpperCase() =="Paco ".toUpperCase()  ){
     retornar= true
   }
   return retornar
 }
 function issebas(str){
-  if(str.toUpperCase() =="sebas".toUpperCase() || str.toUpperCase() =="sebastian".toUpperCase() ){
+  if(str.toUpperCase() =="sebas".toUpperCase() || str.toUpperCase() =="sebastian".toUpperCase() || str.toUpperCase() =="sebas ".toUpperCase() || str.toUpperCase() =="sebastian ".toUpperCase()){
     return true
   } else{
     return false
   }
 }
 function isjose(str){
-  if(str.toUpperCase() =="jose".toUpperCase() || str.toUpperCase() =="josé".toUpperCase() || str.toUpperCase() =="quispe".toUpperCase()){
+  if(str.toUpperCase() =="jose".toUpperCase() || str.toUpperCase() =="josé".toUpperCase() || str.toUpperCase() =="quispe".toUpperCase() || str.toUpperCase() =="jose ".toUpperCase() || str.toUpperCase() =="josé ".toUpperCase() || str.toUpperCase() =="quispe ".toUpperCase()){
     return true
   } else{
     return false
   }
 }
 function ismechi(str){
-  if(str.toUpperCase() =="mechi".toUpperCase() || str.toUpperCase() =="maria".toUpperCase() || str.toUpperCase() =="maría".toUpperCase() || str.toUpperCase() =="mercedes".toUpperCase() ){
+  if(str.toUpperCase() =="mechi".toUpperCase() || str.toUpperCase() =="maria".toUpperCase() || str.toUpperCase() =="maría".toUpperCase() || str.toUpperCase() =="mercedes".toUpperCase()|| str.toUpperCase() =="mechi ".toUpperCase() || str.toUpperCase() =="maria ".toUpperCase() || str.toUpperCase() =="maría ".toUpperCase() || str.toUpperCase() =="mercedes ".toUpperCase() ){
     return true
   } else{
     return false
